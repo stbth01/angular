@@ -45,6 +45,7 @@ namespace DatingApp.API.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            var one = 1;
         }
 
         // DELETE api/values/5
